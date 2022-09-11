@@ -1,17 +1,18 @@
 .row{
-    background: black;
-    width: 101.8%;
-    height: 100px;
-    padding: 10px;
-}
-.clock{
-    background: #292929;
-    width: 100px;
-    height: 80px;
-    color: white;
-}
-.far{
+    width: 1000px;
+    height: 150px;
     margin: auto;
+    background: black;
+}
+.clock, .col-sm-2{
+    width: 100px;
+    height: 100px;
+    background: #969696;
+    color: white;
     font-size: 300%;
-    align-self: center;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    border: 2px solid #cacaca;
+    border-radius: 5px;
 }
